@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Enable Copy Paste",
+  "version": "1.1",
+  "description": "Toggle copy-paste protection on any website.",
+  "permissions": ["scripting", "storage", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
