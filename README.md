@@ -25,9 +25,10 @@ This Chrome extension automatically removes copy-paste and right-click restricti
 
 ---
 
-## 🧩 How to Install (Developer Mode)
+## 📦 Quick Install Options
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/madhurgupta10/enable-copy-paste-extension.git
-   ```
+1. Download the `.zip` from [Releases](https://github.com/madhurgupta10/enable-copy-paste-extension/releases)
+2. Extract the ZIP
+3. Open `chrome://extensions/`
+4. Enable **Developer mode**
+5. Click **Load unpacked** and select the extracted folder
